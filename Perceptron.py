@@ -35,7 +35,7 @@ class Perceptron :
                 z = np.dot(self.w , x)
                 y_hat = self.heaviside(z)
                 self.w += self.learning_rate * (y - y_hat) * x
-        self.displayModel()        
+        #self.displayModel()        
                 
                 
     def predict(self,x):
@@ -80,6 +80,8 @@ perceptron.train()
 
 predictions = perceptron.predict(x_test.T)
 
+print("predictions.shape : ",predictions.shape)
+"""
 #Evaluate The Model
 myconfusionMatrix = confusion_matrix(y_test , predictions)
 
@@ -106,7 +108,7 @@ print(f"Number of samples that The Model Failed to classify in The Test Data is 
 
     
 
-
+"""
 
 
 
