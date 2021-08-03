@@ -81,7 +81,7 @@ perceptron.train()
 predictions = perceptron.predict(x_test.T)
 
 print("predictions.shape : ",predictions.shape)
-"""
+
 #Evaluate The Model
 myconfusionMatrix = confusion_matrix(y_test , predictions)
 
@@ -105,12 +105,5 @@ FailedCalssified = len(predictions) - SuccessfullyClassified
 
 print(f"Number of samples That The Model was able to classify successfully in The Test Data : {SuccessfullyClassified} .")
 print(f"Number of samples that The Model Failed to classify in The Test Data is  : : { FailedCalssified } .")
-
-    
-
-"""
-
-
-
 
 
