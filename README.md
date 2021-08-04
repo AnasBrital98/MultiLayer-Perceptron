@@ -190,7 +190,7 @@ we use the term log loss for binary classification problems, and the more genera
 * Cross-entropy Formula : 
 
 <div align="center" >
-<img src="resources/CrossEntropy.png" width="80%" height="100">
+<img src="resources/crossEntropy.png" width="80%" height="100">
 </div>
 
 ---
@@ -198,7 +198,7 @@ we use the term log loss for binary classification problems, and the more genera
 In This section we will use Gradient Descent as an algorithm for Optimizing our Model :
 
 <div align="center" >
-<img src="resources/GradientDescentGraph.png" width="80%" height="80%">
+<img src="resources/gradientDescentGraph.png" width="80%" height="80%">
 </div>
 
 now let apply the gradient descent to a simple Function to understand how it works :
@@ -334,7 +334,7 @@ def displayResult(losses):
 
 In This Section we will use a MultiLayer Perceptron with this architecture :
 <div align="center" >
-<img src="resources/multiLayerBinaryClassification.png" width="60%">
+<img src="resources/MultiLayerBinaryClassification.png" width="60%">
 </div>
 
 Implementation :
